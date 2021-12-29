@@ -20,26 +20,34 @@ let eightanswer = document.querySelector(".eight p");
 ara.addEventListener("click", () => {
   ara.style.cssText = "  background-color: white;color: black;";
   eng.style.cssText = " background-color:black;color:white;";
+
   fquestion.innerHTML = "؟ Shopifyماهو";
   fanswer.innerHTML =
     "أحد الأنظمة الأساسية العديدة التي تنشئ موقع ويب وتديره وتقوم بالتعديل عليه ";
+
   squestion.innerHTML = "ما هي أكثر استخداماته؟";
   sanswer.innerHTML =
     " متاجر التسويق الاكترونى ويتم استخدامه في دروبشيبينغ وإعادة بيع المنتجات عبر الإنترنت";
+
   tquestion.innerHTML = "؟ Shopify ماذا يمكنني أن أفعل مع ";
   tanswer.innerHTML =
     "يمكنني إنشاء موقع الويب الخاص بي ويمكنني تحميل المنتجات التي أرغب في بيعها عليها وتخصيص جميع البيانات وأسعارها ، يوفر قوالب جاهزة للاستخدام للتعديل";
+
   fourquestion.innerHTML = "ماهى المزايا التى يقدمها لى ؟";
   fouranswer.innerHTML =
     "يقوم بتزويدى بإحصائيات كاملة عن المنتجات المطلوبة وعن العملاء الأكثر شراءًا والتعامل مع موقعي وإحصائيات كاملة عن عدد الزيارات للمنتجات";
+
   fivequestion.innerHTML = "كيف يمكنني اضافة منتج الى الموقع؟";
   fiveanswer.innerHTML =
     "اولا ارفع صورة للمنتج ثم اضع له اسما ووصف مختصر لما يقدمه المنتج ثم احدد السعر وطريقة الدفع";
+
   sixquestion.innerHTML = "؟ Shopify ماهى لغات البرمجه التى احتاجها لاستخدام ";
   sixanswer.innerHTML =
     "للتعديل على الثيمات(HTML,CSS And JavaScript) خاص , تحتاج ايضا لتعلم لغات  Shopify واحدة من اسهل لغات البرمجه لأنشاء تطيبق  Rubyلغة ";
+
   sevenquestion.innerHTML = "؟ Shopify Liquidماهو ";
   sevenanswer.innerHTML = "Liquid هي لغة قوالب مفتوحة المصدر ";
+
   eightquestion.innerHTML = "؟ liquid كيف تستخدم  ";
   eightanswer.innerHTML =
     "ويمكنك التعديل على موقعك الخاص من خلاله Liquid قائمه على  shopify جميع الثيمات والمواقع فى ";
@@ -48,19 +56,37 @@ ara.addEventListener("click", () => {
 eng.addEventListener("click", () => {
   eng.style.cssText = "  background-color: white;color: black;";
   ara.style.cssText = " background-color:black;color:white;";
+
   fquestion.innerHTML = "What Is The Shopify ?";
   fanswer.innerHTML =
     "One of the many platforms that create, manage and modify a website";
+
   squestion.innerHTML = "What are its most uses ?";
   sanswer.innerHTML =
     "It is used in dropshipping and reselling products online";
+
   tquestion.innerHTML = "What can I do with shopify ?";
   tanswer.innerHTML =
     "i can creat my website and I can upload the products I want to sell on it And sizing up all the data and their prices,It provides ready-to-use templates for modification";
+
   fourquestion.innerHTML = "what advantages does it give me ?";
   fouranswer.innerHTML =
     " It also provides me with complete statistics about the products that are on demand and about the customers also the most buying and dealing with my site and complete statistics on the number of visits to the products";
+
   fivequestion.innerHTML = "How can I add a product to the site ?";
   fiveanswer.innerHTML =
     "First I upload a picture of the product, then I put a name for it and a small description of what the product offers, then I set the price and method of payment";
+
+  sixquestion.innerHTML =
+    "What programming languages do I need to use Shopify ? ";
+  sixanswer.innerHTML =
+    "liquid templating language , <br />You must also learn HTML,CSS and JavaScript to modify themes";
+
+  sevenquestion.innerHTML = "What is Shopify liquid ?";
+  sevenanswer.innerHTML =
+    "liquid is it a templating language that was created as an open source ";
+
+  eightquestion.innerHTML = "How To Use liquid ?  ";
+  eightanswer.innerHTML =
+    "used for all shopify themes and website and mak modification if you have your own store on shopify";
 });

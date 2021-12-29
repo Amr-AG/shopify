@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 15px;
+  border-radius: 8px;
+}
+span {
+  border: solid 1px black;
+  width: 100px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: black;
+}
+span:hover {
+  background-color: white;
+  color: black;
+}
+.ara{
+  margin: 0 20px;
+}
+.eng{
+  background-color: white;
+  color: black;
+
+}
+.compare {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px 50px;
+}
+h1 {
+  font-size: 35px;
+  color: rgb(13, 194, 146);
+}
+p {
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 1.8;
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(58, 58, 58);
+  padding: 20px 0;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+}
+.sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+}
+.four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+}
+.five {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+}

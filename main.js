@@ -43,7 +43,7 @@ ara.addEventListener("click", () => {
 
   sixquestion.innerHTML = "؟ Shopify ماهى لغات البرمجه التى احتاجها لاستخدام ";
   sixanswer.innerHTML =
-    "للتعديل على الثيمات(HTML,CSS And JavaScript) خاص , تحتاج ايضا لتعلم لغات  Shopify واحدة من اسهل لغات البرمجه لأنشاء تطيبق  Rubyلغة ";
+    "للتعديل على الثيمات(HTML,CSS And JavaScript)  تحتاج ايضا لتعلم لغات , liquid templating  ";
 
   sevenquestion.innerHTML = "؟ Shopify Liquidماهو ";
   sevenanswer.innerHTML = "Liquid هي لغة قوالب مفتوحة المصدر ";

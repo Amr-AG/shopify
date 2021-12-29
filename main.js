@@ -50,7 +50,7 @@ ara.addEventListener("click", () => {
 
   eightquestion.innerHTML = "؟ liquid كيف تستخدم  ";
   eightanswer.innerHTML =
-    "ويمكنك التعديل على موقعك الخاص من خلاله Liquid قائمه على  shopify جميع الثيمات والمواقع فى ";
+    "جميع الثيمات والمواقع فى قائمة عليه ويمكنك التعديل على موقعك الخاص من خلاله shopify";
 });
 
 eng.addEventListener("click", () => {

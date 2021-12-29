@@ -27,13 +27,12 @@ span:hover {
   background-color: white;
   color: black;
 }
-.ara{
+.ara {
   margin: 0 20px;
 }
-.eng{
+.eng {
   background-color: white;
   color: black;
-
 }
 .compare {
   display: flex;
@@ -55,28 +54,14 @@ p {
   border-bottom: 2px solid rgb(58, 58, 58);
   padding: 20px 0;
 }
-.first {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  margin: 20px auto;
-}
-.sec {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  margin: 20px auto;
-}
-.four {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  margin: 20px auto;
-}
-.five {
+.first,
+.sec,
+.third,
+.four,
+.five,
+.sex,
+.seven,
+.eight {
   display: flex;
   justify-content: space-between;
   align-items: center;

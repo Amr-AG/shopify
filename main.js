@@ -10,11 +10,17 @@ let fourquestion = document.querySelector(".four h1");
 let fouranswer = document.querySelector(".four p");
 let fivequestion = document.querySelector(".five h1");
 let fiveanswer = document.querySelector(".five p");
+let sixquestion = document.querySelector(".six h1");
+let sixanswer = document.querySelector(".six p");
+let sevenquestion = document.querySelector(".seven h1");
+let sevenanswer = document.querySelector(".seven p");
+let eightquestion = document.querySelector(".eight h1");
+let eightanswer = document.querySelector(".eight p");
 
 ara.addEventListener("click", () => {
   ara.style.cssText = "  background-color: white;color: black;";
   eng.style.cssText = " background-color:black;color:white;";
-  fquestion.innerHTML = "؟ shopifyماهو";
+  fquestion.innerHTML = "؟ Shopifyماهو";
   fanswer.innerHTML =
     "أحد الأنظمة الأساسية العديدة التي تنشئ موقع ويب وتديره وتقوم بالتعديل عليه ";
   squestion.innerHTML = "ما هي أكثر استخداماته؟";
@@ -29,6 +35,14 @@ ara.addEventListener("click", () => {
   fivequestion.innerHTML = "كيف يمكنني اضافة منتج الى الموقع؟";
   fiveanswer.innerHTML =
     "اولا ارفع صورة للمنتج ثم اضع له اسما ووصف مختصر لما يقدمه المنتج ثم احدد السعر وطريقة الدفع";
+  sixquestion.innerHTML = "؟ Shopify ماهى لغات البرمجه التى احتاجها لاستخدام ";
+  sixanswer.innerHTML =
+    "للتعديل على الثيمات(HTML,CSS And JavaScript) خاص , تحتاج ايضا لتعلم لغات  Shopify واحدة من اسهل لغات البرمجه لأنشاء تطيبق  Rubyلغة ";
+  sevenquestion.innerHTML = "؟ Shopify Liquidماهو ";
+  sevenanswer.innerHTML = "Liquid هي لغة قوالب مفتوحة المصدر ";
+  eightquestion.innerHTML = "؟ liquid كيف تستخدم  ";
+  eightanswer.innerHTML =
+    "ويمكنك التعديل على موقعك الخاص من خلاله Liquid قائمه على  shopify جميع الثيمات والمواقع فى ";
 });
 
 eng.addEventListener("click", () => {
